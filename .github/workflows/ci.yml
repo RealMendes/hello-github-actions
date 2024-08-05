@@ -1,0 +1,21 @@
+#Nome do fluxo
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  first_action_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Imprime Hello world
+      run: echo "Hello world"
+    - name: Imprime Bye Bye
+      run: echo "Bye Bye"
+      
+      
+      
+
+
+
+
