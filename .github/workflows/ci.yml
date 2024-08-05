@@ -1,9 +1,9 @@
 #Nome do fluxo
 name: CI
-
+# é MANUAL
 on:
   workflow_dispatch:
-
+#Define os Jobs e quais são as ações.
 jobs:
   first_action_job:
     runs-on: ubuntu-latest
